@@ -5,6 +5,8 @@ import { Route, Routes } from 'react-router-dom'
 import Login from './component/authentication/Login'
 import Register from './component/authentication/Register'
 import Home from './component/Home'
+import PrivacyPolicy from './component/PrivacyPolicy'
+import TermsAndServices from './component/TermsAndServices'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/termsofService" element={< TermsAndServices/>} />
       
       </Routes>
     </div>
